@@ -1,0 +1,39 @@
+import { cn } from "@/lib/utils";
+import { Marquee } from "./Marquee";
+
+// ItemCard component to display individual items
+const ItemCard = ({ img, name, username, body }) => {
+  return (
+    <figure
+      className={cn(
+        "relative w-[30vw]  h-[30vw]  md:w-[10vw] md:h-[10vw] cursor-pointer overflow-hidden rounded-xl border",
+        // light styles
+        "border-[#ffffff] bg-white shadow-md hover:bg-gray-950/[.05]"
+        // dark styles
+      )}
+    >
+      <img className="w-full h-full object-cover" alt="" src={img} />
+    </figure>
+  );
+};
+
+// MarqueeDemo component to accept `items` as a prop
+export default function MarqueeDemo({ items, isActive }) {
+  // Split items into two rows dynamically
+  const firstRow = items.slice(0, Math.ceil(items.length / 2)); // Use ceil for better handling odd number of items
+  const secondRow = items.slice(Math.ceil(items.length / 2));
+
+  return (
+    <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg">
+      <Marquee pauseOnHover reverse={isActive} className="[--duration:80s ]">
+        {/* Combine firstRow and secondRow */}
+        {[...firstRow, ...secondRow].map((item, index) => (
+          <ItemCard key={index} {...item} />
+        ))}
+      </Marquee>
+
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white "></div>
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-white ml-[10vw]"></div>
+    </div>
+  );
+}

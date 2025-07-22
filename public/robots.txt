@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hconnectint.com
+
+# Sitemaps
+Sitemap: https://hconnectint.com/sitemap.xml
