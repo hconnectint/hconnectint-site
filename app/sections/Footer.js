@@ -225,7 +225,7 @@ const Footer = () => {
           )}
           <div className="mt-16 border-t border-gray-100/30 pt-8 sm:mt-20 lg:mt-24">
             <div className="text-md text-center text-white mx-auto">
-              Copyright © 2025 HConnect International. All rights reserved.
+              Copyright © 2025 H Connect International. All rights reserved.
               <br></br>
             </div>
             <div className="text-md text-center text-sm pt-2 text-gray-400 mx-auto">

@@ -11,13 +11,14 @@ import { cn } from "@/lib/utils";
 import { headingStyles, bodyTextStyles } from "app/constants/FontStyles";
 
 const progressImages = [
-  { img: "/about/1.jpg" },
-  { img: "/about/2.jpg" },
-  { img: "/about/3.jpg" },
-  { img: "/about/4.jpg" },
-  { img: "/about/5.jpg" },
-  { img: "/about/6.jpg" },
-  { img: "/about/7.jpg" },
+  { img: "/about/main1.jpg" },
+  { img: "/about/main2.jpg" },
+  { img: "/about/main3.jpg" },
+  { img: "/about/main4.jpg" },
+  { img: "/about/main5.jpg" },
+  { img: "/about/main6.jpg" },
+  { img: "/about/main7.jpg" },
+  { img: "/about/main8.jpg" },
 ];
 
 const AboutClient = () => {

@@ -66,7 +66,7 @@ const SectionTextRightLong = ({
               >
                 <div className={`space-y-4  ${bodyTextStyles.descriptionLeft}`}>
                   <div>
-                    We are a leading provider of BPO services, recognized for
+                    We are a leading provider of BPO services, Recognised for
                     delivering a comprehensive range of solutions, including
                     finance and accounting, procurement, technology, and
                     marketing as a service. Our team is committed to innovation

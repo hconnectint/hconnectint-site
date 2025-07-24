@@ -23,10 +23,10 @@ const Resources = () => {
       <div className="w-full">
         <section className="flex flex-col items-center w-full">
           <LandingPageInner
-            subtitle="RESOURCES HUB"
-            blueTitle="KNOWLEDGE CENTER"
+            subtitle="RESOURCES"
+            blueTitle="KNOWLEDGE HUB"
             titleAfterBlue=""
-            description="Your gateway to insights, expertise, and industry knowledge"
+            description="Your gateway to insights, expertise, and industry knowledge."
             ImgUrl="/learn-with-us2.jpg"
           />
         </section>
@@ -36,7 +36,7 @@ const Resources = () => {
             {/* Welcome Section */}
             <div className="text-center mb-12">
               <div className={headingStyles.primaryCenter}>
-                <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-bl from-[#2e2e53] to-[#0000ff] bg-clip-text text-transparent">
                   EXPLORE
                 </span>{" "}
                 OUR RESOURCES
@@ -45,8 +45,7 @@ const Resources = () => {
                 className={`${bodyTextStyles.large} mt-6 text-gray-600 max-w-3xl mx-auto`}
               >
                 Dive into our comprehensive collection of resources designed to
-                keep you informed, inspired, and ahead of the curve in your
-                industry.
+                keep you informed, inspired, and ahead of the curve.
               </p>
             </div>
 
@@ -54,7 +53,7 @@ const Resources = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
               <LightweightResourceCard
                 title="Latest News"
-                description="Stay updated with our latest announcements, industry insights, and company updates from H Connect International."
+                description="Stay updated with our latest announcements and company updates."
                 href="/resources/blogs"
                 bgImage="/resources/latest-news.jpg"
                 category="News"

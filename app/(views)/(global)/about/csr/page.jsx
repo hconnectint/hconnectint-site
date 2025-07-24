@@ -20,6 +20,12 @@ const csrImages = [
   { img: "/about/5.jpg" },
   { img: "/about/6.jpg" },
   { img: "/about/7.jpg" },
+  { img: "/about/8.jpg" },
+  { img: "/about/9.jpg" },
+  { img: "/about/10.jpg" },
+  { img: "/about/11.jpg" },
+  { img: "/about/12.jpg" },
+  { img: "/about/13.jpg" },
 ];
 
 const AboutClient = () => {
@@ -37,13 +43,13 @@ const AboutClient = () => {
               <div className="font-arial text-sm md:text-base xl:text-xl mt-2 text-black">
                 We are committed to making a difference one step at a time,
                 investing in a better future for our communities and the planet.
-                We&apos;re here to do more than generate income—we&apos;re here
-                to make a lasting impact on:
+                We&apos;re here to do more than generate income - we&apos;re
+                here to make a lasting impact on:
               </div>
             </div>
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6  px-[5vw]">
               <div className="">
-                <HoverCard img={"/sustainability/people.jpg"} />
+                <HoverCard img={"/sustainability/ourPeople.jpg"} />
                 <div className="font-GTAmerica text-sm md:text-2xl  mt-2 text-[#0000ff] font-bold">
                   OUR PEOPLE{" "}
                 </div>
@@ -67,7 +73,7 @@ const AboutClient = () => {
                 </div>
               </div>
               <div className="">
-                <HoverCard img={"/sustainability/env.jpg"} />
+                <HoverCard img={"/sustainability/ourEnv.jpg"} />
                 <div className="font-GTAmerica text-sm md:text-2xl  mt-2 text-[#0000ff] font-bold">
                   OUR ENVIRONMENT{" "}
                 </div>
@@ -89,7 +95,7 @@ const AboutClient = () => {
                 </div>
               </div>
               <div className="">
-                <HoverCard img={"/sustainability/com.jpg"} />
+                <HoverCard img={"/sustainability/ourCom.jpg"} />
                 <div className="font-GTAmerica text-sm md:text-2xl  mt-2 text-[#0000ff] font-bold">
                   OUR COMMUNITY{" "}
                 </div>
@@ -102,7 +108,7 @@ const AboutClient = () => {
                       <strong>•</strong> Donation Drives
                     </li>
                     <li>
-                      <strong>•</strong> uplifting Programs
+                      <strong>•</strong> Uplifting Programs
                     </li>
                     <li>
                       <strong>•</strong> Food Distribution
@@ -159,13 +165,13 @@ const AboutClient = () => {
                         </li>
                         <li>
                           <strong>•</strong> <strong> The Connect Crew </strong>{" "}
-                          Inspiring a greener workplace through internal
-                          sustainability projects and mindful practices
+                          Our awesome events committee, bringing the real fun
+                          into work.
                         </li>
                         <li>
                           <strong>•</strong> <strong> The Green Team: </strong>{" "}
-                          Inspiring a greener workplace through internal
-                          sustainability projects and mindful practices
+                          Inspiring an eco-conscious workplace through internal
+                          sustainability projects and mindful practices.
                         </li>
                       </ul>
                     </div>
@@ -177,7 +183,7 @@ const AboutClient = () => {
               <div className="order-1 md:order-2 w-full">
                 <div className="grid grid-cols-2 sm:grid-cols-2 gap-4 md:gap-6">
                   <HoverCard5
-                    title="Care Collective"
+                    title="The Care Collective"
                     img="/ergs/care-collect.jpg"
                   />
                   <HoverCard5

@@ -112,7 +112,7 @@ export default function Home() {
               <div className={bodyTextStyles.primary}>
                 Our world-class operating model and UK-certified talent enable
                 business agility, resilience, and efficiency. We provide
-                tailored solutions for the UK market and beyond.
+                tailored solutions for the United Kingdom market and beyond.
               </div>
               <Button text="View Details" href="/about" />
             </div>
@@ -170,7 +170,7 @@ export default function Home() {
 
         <div className="pt-[5vh] md:pt-[vh] md:pb-[10vh] xl:pb-[8vh]"></div>
 
-        <div className="relative h-[120vh] md:h-[120vh] lg:h-[100vh] xl:h-[80vh] bg-gradient-to-bl from-[#000000] to-[#0000ff]">
+        <div className="relative py-2 bg-gradient-to-bl from-[#000000] to-[#0000ff]">
           {/* Background Image with parallax effect */}
           <div
             className="absolute inset-0 w-full  bg-cover bg-center z-0"
@@ -267,7 +267,7 @@ export default function Home() {
                 graduates from leading UK universities with campuses in Sri
                 Lanka. This means our talent is not only highly skilled but also
                 UK-educated and culturally aligned. Our people understand your
-                market, your standards, and your expectations—making
+                market, your standards, and your expectations, making
                 collaboration seamless and success achievable.
               </div>
             </div>

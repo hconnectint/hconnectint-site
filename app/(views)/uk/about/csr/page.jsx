@@ -20,6 +20,12 @@ const csrImages = [
   { img: "/about/5.jpg" },
   { img: "/about/6.jpg" },
   { img: "/about/7.jpg" },
+  { img: "/about/8.jpg" },
+  { img: "/about/9.jpg" },
+  { img: "/about/10.jpg" },
+  { img: "/about/11.jpg" },
+  { img: "/about/12.jpg" },
+  { img: "/about/13.jpg" },
 ];
 
 const AboutClient = () => {
@@ -37,8 +43,8 @@ const AboutClient = () => {
               <div className="font-arial text-sm md:text-base xl:text-xl mt-2 text-black">
                 We are committed to making a difference one step at a time,
                 investing in a better future for our communities and the planet.
-                We&apos;re here to do more than generate income—we&apos;re here
-                to make a lasting impact on:
+                We&apos;re here to do more than generate income - we&apos;re
+                here to make a lasting impact on:
               </div>
             </div>
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6  px-[5vw]">
@@ -102,7 +108,7 @@ const AboutClient = () => {
                       <strong>•</strong> Donation Drives
                     </li>
                     <li>
-                      <strong>•</strong> uplifting Programs
+                      <strong>•</strong> Uplifting Programs
                     </li>
                     <li>
                       <strong>•</strong> Food Distribution

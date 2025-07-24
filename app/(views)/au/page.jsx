@@ -211,7 +211,7 @@ export default function Home() {
 
         <div className="pt-[5vh] md:pt-[vh] md:pb-[10vh] xl:pb-[8vh]"></div>
 
-        <div className="relative h-[120vh] md:h-[120vh] lg:h-[100vh] xl:h-[80vh] bg-gradient-to-bl from-[#000000] to-[#0000ff]">
+        <div className="relative py-2 bg-gradient-to-bl from-[#000000] to-[#0000ff]">
           {/* Background Image with parallax effect */}
           <div
             className="absolute inset-0 w-full  bg-cover bg-center z-0"
