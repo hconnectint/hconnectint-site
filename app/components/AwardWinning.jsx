@@ -27,7 +27,7 @@ const acc = [
 const logos = [
   {
     name: "GPTW",
-    url: "/accredit/GPTW.jpg",
+    url: "/accredit/GPTW-2025.jpg",
   },
   {
     name: "GPTW-WOMEN",
@@ -42,6 +42,7 @@ const logos = [
   { name: "Leadership", url: "/award/leadership.jpg" },
   { name: "Partner", url: "/award/partner.jpg" },
   { name: "Sustainability", url: "/award/sustain.jpg" },
+  { name: "Sustainability", url: "/award/pinnacle.jpg" },
 ];
 
 const AwardWinning = () => {

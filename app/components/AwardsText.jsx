@@ -61,7 +61,7 @@ const logos = [
     img: "/award/pinnacle.jpg",
     title: "CIMA – JXG Pinnacle Award 2025",
     description:
-      "Honoured at the prestigious CIMA – JXG Pinnacle Awards 2025 for exemplifying leadership, innovation, and purpose-driven excellence—recognised among Sri Lanka’s most distinguished corporate achievements.",
+      "Awarded Bronze in Diversity, Equity, and Inclusion at the Pinnacle Awards by CIMA and Janashakthi Group for our commitment to building an inclusive and equitable workplace.",
   },
 ];
 

@@ -335,7 +335,7 @@ export default function Home() {
                 campuses in Sri Lanka. This means our talent is not only highly
                 skilled, but also Australian-educated and culturally aligned.
                 Our people understand your market, your standards, and your
-                expectations—making collaboration seamless and success
+                expectations - making collaboration seamless and success
                 achievable.
               </div>
             </div>

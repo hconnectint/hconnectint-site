@@ -164,9 +164,9 @@ const AboutClient = () => {
                           the exciting possibilities of AI.
                         </li>
                         <li>
-                          <strong>•</strong> <strong> The Connect Crew </strong>{" "}
-                          Our awesome events committee, bringing the real fun
-                          into work.
+                          <strong>•</strong>{" "}
+                          <strong> The Connect Crew: </strong> Our awesome
+                          events committee, bringing the real fun into work.
                         </li>
                         <li>
                           <strong>•</strong> <strong> The Green Team: </strong>{" "}
