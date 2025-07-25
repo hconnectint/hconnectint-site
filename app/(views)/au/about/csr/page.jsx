@@ -13,19 +13,19 @@ import {
 import HoverCard5 from "app/components/HoverCard5";
 
 const csrImages = [
-  { img: "/about/1.jpg" },
-  { img: "/about/2.jpg" },
-  { img: "/about/3.jpg" },
-  { img: "/about/4.jpg" },
-  { img: "/about/5.jpg" },
-  { img: "/about/6.jpg" },
-  { img: "/about/7.jpg" },
-  { img: "/about/8.jpg" },
-  { img: "/about/9.jpg" },
-  { img: "/about/10.jpg" },
-  { img: "/about/11.jpg" },
-  { img: "/about/12.jpg" },
-  { img: "/about/13.jpg" },
+  { img: "/about/csr1.jpg" },
+  { img: "/about/csr2.jpg" },
+  { img: "/about/csr3.jpg" },
+  { img: "/about/csr4.jpg" },
+  { img: "/about/csr5.jpg" },
+  { img: "/about/csr6.jpg" },
+  { img: "/about/csr7.jpg" },
+  { img: "/about/csr8.jpg" },
+  { img: "/about/csr9.jpg" },
+  { img: "/about/csr10.jpg" },
+  { img: "/about/csr11.jpg" },
+  { img: "/about/csr12.jpg" },
+  { img: "/about/csr13.jpg" },
 ];
 
 const AboutClient = () => {
